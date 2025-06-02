@@ -44,20 +44,3 @@
         }
         item.addEventListener('click', onClick)
         }
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector("#cs-navigation").style.backgroundColor = "white";
-    document.querySelector(".cs-top-container").style.backgroundColor = "white";
-    document.querySelector(".logo-placeholder").style.color = "var(--primary)";
-    
-
-  } else {
-    document.querySelector("#cs-navigation").style.backgroundColor = "transparent";
-    document.querySelector(".cs-navigation").style.backgroundColor = "transparent";
-    document.querySelector(".logo-placeholder").style.color = "black";
-
-  }
-}                    
