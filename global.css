@@ -16,14 +16,20 @@
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
     scrollbar-color: rgba(23, 99, 22, 0.75) white;
+    font-family: 'Montserrat', 'sans-serif';
 
 
 }
 
 body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+/* body p, h3, h4  {
+  font-family: 'Open Sans';
+} */
+body {
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", sans-serif;
 }
 
 *, *:before, *:after {

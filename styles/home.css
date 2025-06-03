@@ -1295,6 +1295,42 @@
         bottom: 0;
     }
 }
+ #ABoutRPsbs-328 .cs-button-solid {
+    font-size: 1rem;
+    font-weight: 700;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-align: center;
+    text-decoration: none;
+    min-width: 9.375rem;
+    margin: 0;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    color: var(--bodyTextColorWhite);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  #ABoutRPsbs-328 .cs-button-solid:before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: #000;
+    opacity: 1;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 0.3s;
+  }
+  #ABoutRPsbs-328 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #ABoutRPsbs-328 .cs-button-solid {
+    align-self: flex-start;
+    border-radius: 0.25rem;
+  }
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
     #ABoutRPsbs-328 .cs-container,
@@ -1318,8 +1354,46 @@
 <---    Side By Side Reverse    -->
 <--- -------------------------- -*/
 
+ 
+
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
+  #AboutRPsbsr-328 .cs-button-solid {
+    font-size: 1rem;
+    font-weight: 700;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-align: center;
+    text-decoration: none;
+    min-width: 9.375rem;
+    margin: 0;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    color: var(--bodyTextColorWhite);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  #AboutRPsbsr-328 .cs-button-solid:before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: #000;
+    opacity: 1;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 0.3s;
+  }
+  #AboutRPsbsr-328 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #AboutRPsbsr-328 .cs-button-solid {
+    align-self: flex-start;
+    border-radius: 0.25rem;
+  }
     #AboutRPsbsr-328 {
         background-color: #f7f7f7;
     }
@@ -1341,4 +1415,5 @@
         /* sends it to the right in the 2nd position */
         order: 2;
     }
+    
 }
